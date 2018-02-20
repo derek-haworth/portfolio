@@ -15,7 +15,8 @@
     "front-end",
     "full-stack",
     "JavaScript",
-    "NodeJS"
+    "Node",
+    "Express"
   ],
   "author": "Dere Haworth",
   "license": "ISC",
@@ -28,6 +29,7 @@
     "gulp-sass": "^3.1.0"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0"
   }
