@@ -13,9 +13,10 @@ app.use(express.static(path.join(__dirname, '/app/public')))
 app.engine('handlebars', handleExpress({
   defaultLayout: 'main'
 }))
-
 app.set('view engine', 'handlebars')
 
+// routes
+require('./app/routing/html-routes.js')(app)
 
 // listener
 app.listen(PORT, function () {
