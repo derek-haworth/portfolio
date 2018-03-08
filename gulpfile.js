@@ -7,14 +7,14 @@ var cssmin = require('gulp-cssmin');
 
 
 gulp.task('styles', function() {
-  gulp.src('app/public/sass/main.scss')
+  gulp.src('app/public/assets/sass/main.scss')
   .pipe(sass({
       includePaths: require('node-normalize-scss').includePaths
     }))
   .pipe(stripCssComments({preserve: false})) //preserve: false strips all comments including '/*!' important
   .pipe(cssmin())
   .pipe(rename({suffix: '.min'}))
-  .pipe(gulp.dest('app/public/css'))
+  .pipe(gulp.dest('app/public/src'))
 });
 
 
