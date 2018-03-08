@@ -8,7 +8,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Derek Haworth | Development Portfolio</title>
+<title>Derek Haworth | {{title}}</title>
 <meta name="keywords" content="derek haworth, web design, web development, front-end, full stack, javascript, node, development">
 <meta name="description" content="I am a Chicago-based front-end developer, who specializes in helping you.">
 <meta name="author" content="Derek Haworth, derekhaw1@gmail.com">
@@ -172,3 +172,24 @@ h1 {
     <!--[if lt IE 7]>
   <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
+
+<!-- nav -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand back-to-top" href="#page-top">Derek Haworth</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="{{#if active_projects}}active{{/if}}" href="/projects">projects</a></li>
+                    <li><a class="{{#if active_about}}active{{/if}}" href="/about">about</a></li>
+                    <li><a class="{{#if active_contact}}active{{/if}}" href="/contact">contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>

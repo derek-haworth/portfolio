@@ -1,10 +1,9 @@
 module.exports = function (app) {
 
   // html get requests
-  // route url root to projects page
   app.get('/', function (req, res) {
-    res.render('index', {
-      title: 'Home'
+    res.render('projects', {
+      title: 'Development Portfolio'
     })
   })
 
@@ -28,8 +27,6 @@ module.exports = function (app) {
       active_contact: true
     })
   })
-
-
 
   // 404 page
   app.use(function (req, res) {
