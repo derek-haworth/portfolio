@@ -26,7 +26,11 @@
   "homepage": "https://github.com/derek-haworth/portfolio#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
+    "gulp-cssmin": "^0.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-strip-css-comments": "^2.0.0",
+    "node-normalize-scss": "^3.0.0"
   },
   "dependencies": {
     "axios": "^0.18.0",
