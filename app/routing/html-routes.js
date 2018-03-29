@@ -7,7 +7,7 @@ module.exports = function (app) {
     })
   });
 
-  /*
+
   app.get('/projects', function (req, res) {
     res.render('projects', {
       title: 'Projects',
@@ -17,7 +17,7 @@ module.exports = function (app) {
 
   app.get('/about', function (req, res) {
     res.render('about', {
-      title: 'About',
+      title: 'About Derek',
       active_about: true
     })
   });
@@ -35,5 +35,6 @@ module.exports = function (app) {
       title: 'Page Not Found'
     })
   });
-  */
+
+
 } // end module.exports()
