@@ -1,0 +1,72 @@
+// Font Family Variables
+$avenirHeavy: 'Avenir Heavy', arial, sans-serif;
+
+@mixin font-face($font-family, $font-path, $font-weight, $font-style) {
+  @font-face {
+    font-family: $font-family;
+      src: url('#{$font-path}.eot');
+      src: url('#{$font-path}.eot?#iefix') format('embedded-opentype'),
+           url('#{$font-path}.woff') format('woff'),
+           url('#{$font-path}.ttf') format('truetype'),
+           url('#{$font-path}.svg##{$font-family}') format('svg');
+    font-weight: $font-weight;
+    font-style: $font-style;
+  }
+}
+
+// If font path changes, modify variable here - path is relative to minified CSS
+$font-file-path: "../fonts";
+
+@include font-face("Avenir Heavy",'#{$font-file-path}/Avenir-Heavy', normal, normal);
+
+
+
+@mixin AvenirHeavy {
+  font-family: $avenirHeavy;
+  font-style: normal;
+}
+
+
+// TYPOGRAPHY
+
+// Headers
+h1, h2, h3, h4, h5, p{
+  color: $white;
+}
+
+h1, h2 {
+  @include AvenirHeavy;
+}
+
+h3, h4, h5 {
+  @include AvenirHeavy
+}
+
+h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  @media (max-width: 767px) {
+    font-size: 21px;
+  }
+}
+
+h2{
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 17px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 14px;
+}
+

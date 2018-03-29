@@ -1,5 +1,4 @@
 $(window).load(function() {
-  debugger;
   setTimeout(function() {
     $('.spinner').fadeOut("slow");
 
