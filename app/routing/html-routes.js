@@ -3,7 +3,7 @@ module.exports = function (app) {
   // html get requests
   app.get('/', function (req, res) {
     res.render('projects', {
-      title: 'Development Portfolio'
+      title: 'Portfolio'
     })
   });
 
@@ -15,9 +15,9 @@ module.exports = function (app) {
     })
   });
 
-  app.get('/about', function (req, res) {
-    res.render('about', {
-      title: 'About Derek',
+  app.get('/experience', function (req, res) {
+    res.render('resume', {
+      title: 'Experience',
       active_about: true
     })
   });
