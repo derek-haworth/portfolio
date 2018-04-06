@@ -1,9 +1,14 @@
-// Header
+/*
+    ====================================
+                Header
+    ====================================
+*/
 
 
 /* Navbar */
 header {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.8);
+    color: $base;
     height: 60px;
     position: fixed;
     top: 0;
@@ -13,8 +18,8 @@ header {
     width: 100%;
 	font-size: 14px;
 	line-height: 14px;
-	letter-spacing: 3px;
-	z-index: 99999;
+	letter-spacing: 2px;
+	z-index: 99;
 }
 .nav-up {
     top: -70px;
@@ -25,6 +30,11 @@ header {
     ul > li {
         padding: 0 5px 0 0;
     }
+}
+
+/* so that the navbar doesn't stay fixed on smaller screen sizes */
+.navbar-fixed-top {
+  position: static;
 }
 
 .navbar-mobile {
@@ -66,3 +76,36 @@ header {
     }
 }
 
+
+/*
+    ====================================
+                Footer
+    ====================================
+*/
+
+footer {
+    color: #acb4bf;
+    background: #1f2631;
+    padding: 2em 0;
+    margin-top: 10em;
+    .copyright {
+        padding-top: 1em;
+    }
+    .social-networks-ul {
+        margin: 1em 0;
+        li {
+            padding-bottom: 1em;
+        }
+    }
+    /* 992px ----------- */
+    @media only screen and (min-width: 992px) {
+      .copyright {
+        padding-top: 0;
+      }
+
+      .social-networks-ul {
+        margin: 0;
+        text-align: right;
+      }
+    }
+}

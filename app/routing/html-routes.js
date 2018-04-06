@@ -15,9 +15,9 @@ module.exports = function (app) {
     })
   });
 
-  app.get('/experience', function (req, res) {
-    res.render('resume', {
-      title: 'Experience',
+  app.get('/about', function (req, res) {
+    res.render('about', {
+      title: 'About',
       active_about: true
     })
   });
@@ -38,3 +38,4 @@ module.exports = function (app) {
 
 
 } // end module.exports()
+

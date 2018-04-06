@@ -1,0 +1,58 @@
+/* global styles */
+body {
+  color: #65707a;
+  background: $white;
+}
+
+p {
+  font-size: 1em;
+  line-height: 2em;
+  color: #65707a;
+}
+
+a:link,
+a:visited {
+  transition: 0.3s;
+  color: $base;
+}
+
+a:hover,
+a:focus {
+  transition: 0.3s;
+  color: #db0a6d;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn-custom,
+a.btn-custom {
+  transition: 0.3s;
+  color: #fff;
+  background: #1f2631 url(../images/polygon-bg.jpg) no-repeat top center;
+}
+
+.btn-custom:hover,
+.btn-custom:focus {
+  transition: 0.3s;
+  color: #fff;
+  background: #1f2631 url(../images/polygon-bg.jpg) no-repeat 5px center;
+}
+
+p.link-button-wrapper {
+  margin: 100px auto 50px auto;
+}
+
+a.btn-pink {
+  transition: 0.3s;
+  color: #fff;
+  background: #db0a6d;
+}
+
+a.btn-pink:hover,
+a.btn-pink:focus {
+  transition: 0.3s;
+  color: #fff;
+  background: #1f2631;
+}

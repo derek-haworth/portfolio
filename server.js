@@ -4,7 +4,7 @@ var path = require('path');
 var http = require('http');
 
 var app = express();
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 8080;
 
 // access to the public folder
 app.use(express.static(path.join(__dirname, '/app/public')))
