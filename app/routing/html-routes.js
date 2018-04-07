@@ -1,39 +1,51 @@
+
 module.exports = function (app) {
 
-  // html get requests
+// HTML GET Requests
+
+  // Root defaults to Projects/Portfolio Page
   app.get('/', function (req, res) {
-    res.render('projects', {
+
+    var handleObj = {
       title: 'Portfolio'
-    })
+    }
+    res.render('projects', handleObj)
   });
-
-
+  
+  // Main/Projects/Portfolio Page
   app.get('/projects', function (req, res) {
-    res.render('projects', {
-      title: 'Projects',
+
+    var handleObj = {
+      title: 'Portfolio',
       active_projects: true
-    })
+    }
+    res.render('projects', handleObj)
   });
 
+  // About Page
   app.get('/about', function (req, res) {
-    res.render('about', {
+    var handleObj = {
       title: 'About',
       active_about: true
-    })
+    }
+    res.render('about', handleObj)
   });
-
+  
+  // Contact Page
   app.get('/contact', function (req, res) {
-    res.render('contact', {
+    var handleObj = {
       title: 'Contact',
       active_contact: true
-    })
+    }
+    res.render('contact', handleObj)
   });
 
-  // 404 page
+  // 404 Page
   app.use(function (req, res) {
-    res.render('404', {
+    var handleObj = {
       title: 'Page Not Found'
-    })
+    }
+    res.render('404', handleObj)
   });
 
 
