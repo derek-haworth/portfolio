@@ -9,19 +9,24 @@
 header {
     background-color: rgba(255,255,255,0.9);
     color: $base;
-    height: 60px;
     position: fixed;
     top: 0;
-    transition: top 0.3s ease-in-out;
-    -webkit-transition: 0.3s all ease-out;
-    -moz-transition: 0.3s all ease-out;
     width: 100%;
-	font-size: 14px;
-	line-height: 14px;
-	letter-spacing: 2px;
+	font-size: 16px;
+	letter-spacing: 1px;
 	z-index: 99;
-    .nav li{
+    padding: 10px 0;
+    .navbar-header {
+        .logo-name .navbar-brand {
+            color: $base;
+            font-weight: $bolder;
+            font-size: 24px;
+            letter-spacing: -1px;
+        }
+    }
+    .nav li {
         a {
+            color: $base;
             &.active {
                 text-decoration: line-through;
                 color: $off-pink; 
@@ -32,16 +37,6 @@ header {
                 text-decoration: line-through;
             }
         }
-    }
-}
-.nav-up {
-    top: -70px;
-}	
-.top-menu {
-    display: flex;
-    float: right;
-    ul > li {
-        padding: 0 5px 0 0;
     }
 }
 

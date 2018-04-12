@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>{{title}} | Derek Haworth </title>
-<meta name="keywords" content="derek haworth, web development, front-end, full stack, javascript, node, react, development">
+<meta name="keywords" content="derek haworth, web development, front-end, full stack, javascript, node, express, react, mern, development">
 <meta name="description" content="A Chicago-based full stack developer specializing in solutioning complex business problems">
 <meta name="author" content="Derek Haworth, derekhaw1@gmail.com">
 <meta name="copyright" content="Derek Haworth">
@@ -19,123 +19,7 @@
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="src/css/main.min.css">
 
-<style>
-/*
-    #preloader {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(255,255,255 , .5);
-        z-index: 1000;
-    }
-
-    .spinner {
-        text-align: center;
-        font-size: 10px;
-    }
-
-    .spinner, .spinner-inner {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        border: 9px solid #000;
-        border-color: transparent #000;
-        margin: auto;
-    }
-
-    .spinner {
-        width: 85px;
-        height: 85px;
-        -webkit-animation: spin 2.2s linear 0s infinite normal;
-        -moz-animation: spin 2.2s linear 0s infinite normal;
-        animation: spin 2.2s linear 0s infinite normal;
-    }
-
-    .spinner-inner {
-        width: 40px;
-        height: 40px;
-        -webkit-animation: spinback 1.2s linear 0s infinite normal;
-        -moz-animation: spinback 1.2s linear 0s infinite normal;
-        animation: spinback 1.2s linear 0s infinite normal;
-    }
-
-    @-webkit-keyframes spin {
-        from {
-            -webkit-transform: rotate(0)
-        }
-        to {
-            -webkit-transform: rotate(360deg)
-        }
-    }
-
-    @-moz-keyframes spin {
-        from {
-            -moz-transform: rotate(0);
-        }
-        to {
-            -moz-transform: rotate(360deg);
-        }
-    }
-
-    @keyframes spin {
-        from {
-            transform: rotate(0);
-        }
-        to {
-            transform: rotate(360deg);
-        }
-    }
-
-    @-webkit-keyframes spinback {
-        from {
-            -webkit-transform: rotate(0);
-        }
-        to {
-            -webkit-transform: rotate(-360deg);
-        }
-    }
-
-    @-moz-keyframes spinback {
-        from {
-            -moz-transform: rotate(0);
-        }
-        to {
-            -moz-transform: rotate(-360deg);
-        }
-    }
-
-    @keyframes spinback {
-        from {
-            transform: rotate(0);
-        }
-        to {
-            transform: rotate(-360deg);
-        }
-    }
-
-    .snippet {
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 20px;
-        width: 50%;
-        margin: 20px auto;
-    }
-
-    @media (max-width: 640px) {
-        h1 {
-            font-size: 4em;
-        }
-        .snippet {
-            width: 100%;
-        }
-    }
-    */
-</style>
-
-<body id="page-top">
+<body>
     <!--Created by
    ______   __     __
   |   __  \|  |   |  |
@@ -160,7 +44,7 @@
 
     <header>
         <!-- nav -->
-        <nav class="navbar navbar-fixed-top">
+        <nav class="navbar navbar-fixed-top mb0">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -168,7 +52,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <h1 class="mzero"><a class="navbar-brand back-to-top" href="/">Derek Haworth</a></h1>
+                    <h1 class="mzero logo-name"><a class="navbar-brand" href="/">Derek Haworth</a></h1>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">

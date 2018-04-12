@@ -14,7 +14,7 @@ module.exports = function (app) {
       title: 'Home',
       projects: homeProjects
     }
-    res.render('projects', handleObj)
+    res.render('index', handleObj)
   });
   
   // Main/Projects/Portfolio Page

@@ -4,11 +4,10 @@ body {
 }
 
 p {
-  font-size: 1em;
+  font-size: $base-size;
   line-height: 2em;
   color: $base-font;
 }
-
 
 img {
   max-width: 100%;
