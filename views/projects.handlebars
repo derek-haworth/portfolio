@@ -21,18 +21,22 @@
 	</div>
 
 	<!-- projects gallery -->
-	<div class="gallery">
-	    <ul class="gallery-ul clearfix">
-	        <li>
-	           	<a href="/">
-	                <div class="gallery-header">
-	                    <h3>Project Title</h3>
-	                    <p>html / css / javaScript / node / mysql</p>
-	                </div>
-	               	<img src="images/crisiscorps-gallery.jpg" alt="Image of the crisiscorps dashboard page." />
-	           	</a>
-	       	</li>
-	    </ul>
+	<div class="gallery container">
+		<div class="row">
+		    <ul class="gallery-ul clearfix">
+		    	{{#each projects}}
+		    		<li>
+			           	<figure>
+							<img src="https://www.what-dog.net/Images/faces2/scroll0015.jpg" alt="img02">
+							<figcaption>
+								<span>html / css / javaScript / node / mysql</span>
+								<a href="/">Take a look</a>
+							</figcaption>
+						</figure>
+			       	</li>
+		    	{{/each}}
+		    </ul>
+		</div>
 	</div>
 
 	<!-- Design & Development Section -->

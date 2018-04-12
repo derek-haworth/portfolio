@@ -10,17 +10,6 @@ p {
   color: #65707a;
 }
 
-a:link,
-a:visited {
-  transition: 0.3s;
-  color: $base;
-}
-
-a:hover,
-a:focus {
-  transition: 0.3s;
-  color: #db0a6d;
-}
 
 img {
   max-width: 100%;
@@ -55,4 +44,51 @@ a.btn-pink:focus {
   transition: 0.3s;
   color: #fff;
   background: #1f2631;
+}
+
+.gallery-ul li {
+  display: inline-block;
+  width: 440px;
+  margin: 0;
+  padding: 20px;
+  text-align: left;
+  position: relative;
+}
+
+figure {
+  margin: 0;
+  position: relative;
+}
+ figure img {
+  z-index: 10;
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  transition: transform 0.4s;
+  max-width: 100%;
+  display: block;
+  position: relative;
+}
+
+ figure:hover img {
+  -webkit-transform: translateY(-90px);
+  -moz-transform: translateY(-90px);
+  -ms-transform: translateY(-90px);
+  transform: translateY(-90px);
+}
+
+figcaption {
+  height: 90px;
+  width: 100%;
+  bottom: 0;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  background: #2c3f52;
+  color: #ed4e6e;
+  a {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+  }
 }

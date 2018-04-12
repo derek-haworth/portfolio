@@ -1,25 +1,32 @@
 
 module.exports = function (app) {
 
+  var data = require('../../data.json');
+  var projects = data.projects;
+
 // HTML GET Requests
 
   // Root defaults to Projects/Portfolio Page
   app.get('/', function (req, res) {
 
     var handleObj = {
-      title: 'Portfolio'
+      title: 'TEst',
+      projects: projects
     }
     res.render('projects', handleObj)
   });
   
   // Main/Projects/Portfolio Page
   app.get('/projects', function (req, res) {
-
+    //pull in data from data.json about project and render in the handlebar Obj
+    
     var handleObj = {
       title: 'Portfolio',
-      active_projects: true
-    }
-    res.render('projects', handleObj)
+      active_projects: true,
+      projects: projects
+    };
+
+    res.render('projects', handleObj);
   });
 
   // About Page
@@ -27,8 +34,8 @@ module.exports = function (app) {
     var handleObj = {
       title: 'About',
       active_about: true
-    }
-    res.render('about', handleObj)
+    };
+    res.render('about', handleObj);
   });
   
   // Contact Page
@@ -36,16 +43,16 @@ module.exports = function (app) {
     var handleObj = {
       title: 'Contact',
       active_contact: true
-    }
-    res.render('contact', handleObj)
+    };
+    res.render('contact', handleObj);
   });
 
   // 404 Page
   app.use(function (req, res) {
     var handleObj = {
       title: 'Page Not Found'
-    }
-    res.render('404', handleObj)
+    };
+    res.render('404', handleObj);
   });
 
 
