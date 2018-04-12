@@ -20,13 +20,14 @@
 <link rel="stylesheet" type="text/css" href="src/css/main.min.css">
 
 <style>
+/*
     #preloader {
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(10, 10, 10, 1);
+        background: rgba(255,255,255 , .5);
         z-index: 1000;
     }
 
@@ -41,8 +42,8 @@
         bottom: 0;
         right: 0;
         left: 0;
-        border: 9px solid #fff;
-        border-color: transparent #fff;
+        border: 9px solid #000;
+        border-color: transparent #000;
         margin: auto;
     }
 
@@ -131,6 +132,7 @@
             width: 100%;
         }
     }
+    */
 </style>
 
 <body id="page-top">
@@ -166,11 +168,11 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand back-to-top" href="/">Derek Haworth</a>
+                    <h1 class="mzero"><a class="navbar-brand back-to-top" href="/">Derek Haworth</a></h1>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a class="{{#if active_projects}}active{{/if}}" href="/">projects</a></li>
+                        <li><a class="{{#if active_projects}}active{{/if}}" href="/projects">projects</a></li>
                         <li><a class="{{#if active_about}}active{{/if}}" href="/about">about</a></li>
                         <li><a href="https://www.linkedin.com/in/derekhaw1/" target="_blank">linkedin</a></li>
                         <li><a href="https://github.com/derek-haworth" target="_blank">github</a></li>

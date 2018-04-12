@@ -7,7 +7,7 @@
 
 /* Navbar */
 header {
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.9);
     color: $base;
     height: 60px;
     position: fixed;
@@ -20,6 +20,19 @@ header {
 	line-height: 14px;
 	letter-spacing: 2px;
 	z-index: 99;
+    .nav li{
+        a {
+            &.active {
+                text-decoration: line-through;
+                color: $off-pink; 
+            }
+            &:hover {
+                transition: 0.3s;
+                background-color: transparent;
+                text-decoration: line-through;
+            }
+        }
+    }
 }
 .nav-up {
     top: -70px;
@@ -85,7 +98,7 @@ header {
 
 footer {
     color: #acb4bf;
-    background: #1f2631;
+    background: $base;
     padding: 2em 0;
     margin-top: 10em;
     .copyright {

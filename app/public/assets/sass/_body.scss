@@ -21,7 +21,7 @@
 .section-heading {
   padding: 5em 0;
   background: $base;
-  color: #5e7184;
+  color: $base-font;
   h2 {
     margin: 0 0 1em 0;
     padding: 0;
@@ -34,86 +34,10 @@
     color: #5e7184;
     font-size: 1.5em;
     font-style: italic;
-    border-left: 3px solid #db0a6d;
+    border-left: 3px solid $off-pink;
   }
 }
 
-
-/* Gallery */
-.gallery {
-  margin-top: 7em;
-}
-
-.gallery-heading {
-  padding: 150px 0 20px 0;
-  text-align: center;
-}
-
-.gallery h1,
-.gallery p {
-  color: #fff;
-}
-
-.gallery ul {
-  margin: 0;
-  padding: 0;
-}
-
-// .gallery ul li {
-//   display: block;
-//   position: relative;
-//   overflow: hidden;
-//   margin-bottom: 1em;
-//   list-style-type: none;
-//   color: #47475c;
-//   background: none;
-// }
-
-/* Sets the pinkish redish background on gallery items to not show until hover listed below */
-.gallery-header {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  padding: 2% 5%;
-  color: #fff;
-  opacity: 0;
-  transition: 0.35s;
-}
-
-.banner-ul a:hover .gallery-header,
-.banner-ul a:focus .gallery-header,
-.gallery-ul a:hover .gallery-header,
-.gallery-ul a:focus .gallery-header,
-.gallery-md-ul a:hover .gallery-header,
-.gallery-md-ul a:focus .gallery-header {
-  background: rgba(219, 10, 109, 0.85);
-  opacity: 1;
-  transition: 0.35s;
-}
-
-.banner-ul a:hover .gallery-header h1,
-.banner-ul a:hover .gallery-header p,
-.gallery-ul a:hover .gallery-header h1,
-.gallery-ul a:hover .gallery-header p,
-.gallery-md-ul a:hover .gallery-header h1,
-.gallery-md-ul a:hover .gallery-header p {
-  margin-left: 0px;
-  transition: 0.35s;
-}
-
-.gallery-header h1 {
-  margin: 0 0 0 -30px;
-  font-size: 5em;
-  font-weight: bold;
-  transition: 0.35s;
-}
-
-.gallery-header p {
-  font-size: 1em;
-  margin: 2% 0 2% -70px;
-  font-style: italic;
-  transition: 0.35s;
-}
 
 /* projects */
 /* content */
@@ -130,18 +54,6 @@
   margin: 50px auto;
   text-align: center;
   box-shadow: 1px 15px 30px #adb9c4;
-}
-
-.iphone-display-2 img,
-.iphone-display img,
-img.logo-display,
-img.rwd-displays {
-  box-shadow: none;
-}
-
-.iphone-display-2 img {
-  max-width: 50%;
-  float: left;
 }
 
 

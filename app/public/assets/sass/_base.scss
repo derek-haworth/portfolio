@@ -1,49 +1,17 @@
 /* global styles */
 body {
-  color: #65707a;
   background: $white;
 }
 
 p {
   font-size: 1em;
   line-height: 2em;
-  color: #65707a;
+  color: $base-font;
 }
 
 
 img {
   max-width: 100%;
-}
-
-.btn-custom,
-a.btn-custom {
-  transition: 0.3s;
-  color: #fff;
-  background: #1f2631 url(../images/polygon-bg.jpg) no-repeat top center;
-}
-
-.btn-custom:hover,
-.btn-custom:focus {
-  transition: 0.3s;
-  color: #fff;
-  background: #1f2631 url(../images/polygon-bg.jpg) no-repeat 5px center;
-}
-
-p.link-button-wrapper {
-  margin: 100px auto 50px auto;
-}
-
-a.btn-pink {
-  transition: 0.3s;
-  color: #fff;
-  background: #db0a6d;
-}
-
-a.btn-pink:hover,
-a.btn-pink:focus {
-  transition: 0.3s;
-  color: #fff;
-  background: #1f2631;
 }
 
 .gallery-ul li {
@@ -82,13 +50,21 @@ figcaption {
   bottom: 0;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
-  backface-visibility: hidden;
   position: absolute;
   background: #2c3f52;
   color: #ed4e6e;
+  h3 {
+    color: $white;
+  }
   a {
     position: absolute;
     right: 20px;
     top: 30px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 2px;
+    display: inline-block;
+    background: #ed4e6e;
+    color: #fff;
   }
 }

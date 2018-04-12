@@ -1,12 +1,23 @@
 {
-	"projects": [
-		{
-			"Image": "pathtoimage",
-			"Id": "1",
-			"Github": "http://www.testfakelink.com/",
-			"Data": "abcdefg",
-			"Title": "Project Title"
+	"homeProjects": [
+		{	
+			"id": "1",
+			"image": "pathtoimage",
+			"github": "https://github.com/derek-haworth/REACTed-development",
+			"demo": "https://reacted-development.herokuapp.com/",
+			"data": "react",
+			"title": "REACTed-development"
 		},
+		{
+			"id": "2",
+			"image": "pathtoimage",
+			"github": "https://github.com/derek-haworth/Dyv-iN",
+			"demo": "https://dyv-in.herokuapp.com/",
+			"data": "node / mysql / sequelize / express / passport / handlebars",
+			"title": "Dyn-iN"
+		}
+	],
+	"projects": [
 		{
 			"Image": "pathtoimage",
 			"Id": "1",

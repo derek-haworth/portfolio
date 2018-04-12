@@ -1,17 +1,18 @@
 
 module.exports = function (app) {
-
+  
+  // Require json to project details
   var data = require('../../data.json');
+  var homeProjects = data.homeProjects;
   var projects = data.projects;
 
-// HTML GET Requests
 
   // Root defaults to Projects/Portfolio Page
   app.get('/', function (req, res) {
 
     var handleObj = {
-      title: 'TEst',
-      projects: projects
+      title: 'Home',
+      projects: homeProjects
     }
     res.render('projects', handleObj)
   });
@@ -21,7 +22,7 @@ module.exports = function (app) {
     //pull in data from data.json about project and render in the handlebar Obj
     
     var handleObj = {
-      title: 'Portfolio',
+      title: 'Projects',
       active_projects: true,
       projects: projects
     };

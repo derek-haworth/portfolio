@@ -27,10 +27,11 @@
 		    	{{#each projects}}
 		    		<li>
 			           	<figure>
-							<img src="https://www.what-dog.net/Images/faces2/scroll0015.jpg" alt="img02">
+							<img src="https://www.what-dog.net/Images/faces2/scroll0015.jpg" alt="{{this.title}}">
 							<figcaption>
-								<span>html / css / javaScript / node / mysql</span>
-								<a href="/">Take a look</a>
+								<h3 class="pzero mzero">{{this.title}}</h3>
+								<span>{{this.data}}</span>
+								<a href="{{this.demo}}" target="_blank">Take a look</a>
 							</figcaption>
 						</figure>
 			       	</li>
