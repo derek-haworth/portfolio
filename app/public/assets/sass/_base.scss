@@ -2,6 +2,11 @@
 body {
   background: $white;
 }
+a {
+  &:hover, &:focus, &:active {
+    background-color: transparent;
+  }
+}
 
 p {
   font-size: $base-size;

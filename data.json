@@ -18,13 +18,76 @@
 		}
 	],
 	"projects": [
-		{
+		{	
 			"id": "1",
 			"image": "pathtoimage",
 			"github": "https://github.com/derek-haworth/REACTed-development",
 			"demo": "https://reacted-development.herokuapp.com/",
 			"data": "react",
 			"title": "REACTed-development"
+		},
+		{
+			"id": "2",
+			"image": "pathtoimage",
+			"github": "https://github.com/derek-haworth/Dyv-iN",
+			"demo": "https://dyv-in.herokuapp.com/",
+			"data": "node / mysql / sequelize / express / passport / handlebars",
+			"title": "Dyn-iN"
+		},
+		{	
+			"id": "3",
+			"image": "pathtoimage",
+			"github": "https://github.com/derek-haworth/Experiments-and-Games/tree/master/Trivia-Game",
+			"demo": "https://derek-haworth.github.io/Experiments-and-Games/Trivia-Game/",
+			"data": "javascript",
+			"title": "Jurassic Park Trivia"
+		},
+		{	
+			"id": "4",
+			"image": "pathtoimage",
+			"github": "https://github.com/derek-haworth/liri-node-app",
+			"demo": "https://github.com/derek-haworth/liri-node-app",
+			"data": "nodejs / npm / javascript / apis / cli",
+			"title": "LIRI"
+		},
+		{
+			"id": "5",
+			"image": "pathtoimage",
+			"github": "https://github.com/derek-haworth/hangman-cli",
+			"demo": "https://github.com/derek-haworth/hangman-cli",
+			"data": "nodejs / javascript / inquirer / cli ",
+			"title": "Hangman"
+		},
+		{
+			"id": "6",
+			"image": "pathtoimage",
+			"github": "https://github.com/derek-haworth/friend-finder",
+			"demo": "https://haworth-friend-finder.herokuapp.com/",
+			"data": "nodejs / npm / express ",
+			"title": "Friend Finder"
+		},
+		{
+			"id": "7",
+			"image": "pathtoimage",
+			"github": "https://github.com/derek-haworth/bamazon",
+			"demo": "https://github.com/derek-haworth/bamazon",
+			"data": "nodejs / javascript / inquirer / mysql-database / cli ",
+			"title": "Bamazon"
+		},
+		{
+			"id": "8",
+			"image": "pathtoimage",
+			"github": "https://github.com/derek-haworth/bamazon",
+			"demo": "https://sheltered-shore-86172.herokuapp.com/burgers",
+			"data": "nodejs / MVC / mysql / sequelize / orm / database / express / handlebars",
+			"title": "Burger App"
+		},
+		{
+			"id": "9",
+			"image": "pathtoimage",
+			"github": "https://github.com/derek-haworth/Exercises",
+			"demo": "https://github.com/derek-haworth/Exercises",
+			"title": "Collection of experiments and games"
 		}
 	]
 }
