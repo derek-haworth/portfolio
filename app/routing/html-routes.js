@@ -26,7 +26,7 @@ var projects = data.projects;
       projects: projects
     };
 
-    res.render('projects', handleObj);
+    res.render('all-projects', handleObj);
   });
 
   // About Page
@@ -57,7 +57,7 @@ var projects = data.projects;
           title: projects[i].title,
           projects: projects[i]
         };
-        return res.render('project', handleObj);
+        return res.render('single-project', handleObj);
       }
     }
 

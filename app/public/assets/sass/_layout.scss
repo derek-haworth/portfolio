@@ -20,7 +20,10 @@ header {
     -webkit-transition: 0.3s all ease-out;
     -moz-transition: 0.3s all ease-out;
     &.nav-up {
-        top: -70px;
+        top: -80px;
+    }
+    &.nav-shadow {
+        box-shadow: 0 3px 8px 0 rgba(0,0,0,.24);
     }
     .navbar-header {
         .logo-name .navbar-brand {
