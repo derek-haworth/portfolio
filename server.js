@@ -13,10 +13,16 @@ app.use(express.static(path.join(__dirname, '/app/public')))
 app.engine('handlebars', handleExpress({
   defaultLayout: 'main'
 }))
+
 app.set('view engine', 'handlebars')
 
-// routes
-require('./app/routing/html-routes.js')(app)
+// // routes
+// require('./app/routing/html-routes.js')(app)
+
+// Routes
+// ========================================
+var htmlRouter = require('./app/routing/html-routes.js');
+app.use('/', htmlRouter);
 
 // listener
 app.listen(PORT, function () {

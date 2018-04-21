@@ -1,14 +1,13 @@
-
-module.exports = function (app) {
+var express = require('express');
+var router = express.Router();
   
-  // Require json to project details
-  var data = require('../../data.json');
-  var homeProjects = data.homeProjects;
-  var projects = data.projects;
-
+// Require json to project details
+var data = require('../../data.json');
+var homeProjects = data.homeProjects;
+var projects = data.projects;
 
   // Root defaults to Projects/Portfolio Page
-  app.get('/', function (req, res) {
+  router.get('/', function (req, res) {
 
     var handleObj = {
       title: 'Home',
@@ -18,7 +17,7 @@ module.exports = function (app) {
   });
   
   // Main/Projects/Portfolio Page
-  app.get('/projects', function (req, res) {
+  router.get('/projects', function (req, res) {
     //pull in data from data.json about project and render in the handlebar Obj
     
     var handleObj = {
@@ -31,7 +30,7 @@ module.exports = function (app) {
   });
 
   // About Page
-  app.get('/about', function (req, res) {
+  router.get('/about', function (req, res) {
     var handleObj = {
       title: 'About',
       active_about: true
@@ -40,7 +39,8 @@ module.exports = function (app) {
   });
   
   // Contact Page
-  app.get('/contact', function (req, res) {
+  router.get('/contact', function (req, res) {
+    console.log("contact page");
     var handleObj = {
       title: 'Contact',
       active_contact: true
@@ -48,14 +48,27 @@ module.exports = function (app) {
     res.render('contact', handleObj);
   });
 
+  router.get("/projects/:name", function(req, res) {
+    console.log(req.params.name);
+
+    for (var i = 0; i < projects.length; i++) {
+      if (projects[i].title === req.params.name) {
+        var handleObj = {
+          title: projects[i].title,
+          projects: projects[i]
+        };
+        return res.render('project', handleObj);
+      }
+    }
+
+  });
+
   // 404 Page
-  app.use(function (req, res) {
+  router.use(function (req, res) {
     var handleObj = {
       title: 'Page Not Found'
     };
     res.render('404', handleObj);
   });
 
-
-} // end module.exports()
-
+module.exports = router;
