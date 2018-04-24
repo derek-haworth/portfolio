@@ -10,7 +10,6 @@ $(window).scroll(function(event){
 
 setInterval(function() {
     if (didScroll) {
-      debugger;
         hasScrolled();
         didScroll = false;
     }
@@ -24,7 +23,7 @@ function hasScrolled() {
         return;
     
     // If they scrolled down and are past the navbar, add class .nav-up.
-    if (scrollT > lastScrollTop && st > navbarHeight){
+    if (scrollT > lastScrollTop && scrollT > navbarHeight){
         // Scroll Down
         $('header').removeClass('nav-down nav-shadow').addClass('nav-up');
     } else {
@@ -32,6 +31,11 @@ function hasScrolled() {
         if(scrollT + $(window).height() < $(document).height()) {
             $('header').removeClass('nav-up').addClass('nav-down nav-shadow');
         }
+    }
+
+    if (scrollT < 75) {
+        debugger;
+        $('header').removeClass('nav-shadow');
     }
     
     lastScrollTop = scrollT;

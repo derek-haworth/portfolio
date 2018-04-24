@@ -6,13 +6,24 @@
 
 /* Jumbotron */
 .jumbotron {
-  padding: 0 0 10em 0;
+  padding: 0 0 5em 0;
   h1 {
     color: $base;
     font-size: 3vw;
     span {
       font-size: 5vw;
       font-weight: $bolder;
+    }
+  }
+  a.main-cta {
+    background: #29A46A;
+    padding: 15px;
+    width: 20%;
+    color: $white;
+    font-size: 22px;
+    border-radius: 40px;
+    &:hover {
+      text-decoration: none;
     }
   }
 }
@@ -54,6 +65,11 @@
   margin: 50px auto;
   text-align: center;
   box-shadow: 1px 15px 30px #adb9c4;
+}
+
+.thumb img {
+  width: 105px;
+  height: 105px;
 }
 
 

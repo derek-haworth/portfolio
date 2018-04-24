@@ -40,12 +40,20 @@ var projects = data.projects;
   
   // Contact Page
   router.get('/contact', function (req, res) {
-    console.log("contact page");
     var handleObj = {
       title: 'Contact',
       active_contact: true
     };
     res.render('contact', handleObj);
+  });
+
+  // Resume Page
+  router.get('/resume', function (req, res) {
+    var handleObj = {
+      title: 'Resume',
+      active_resume: true
+    };
+    res.render('resume', handleObj);
   });
 
   router.get("/projects/:name", function(req, res) {

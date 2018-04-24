@@ -1,29 +1,32 @@
 {
-	"homeProjects": [
-		{	
-			"id": "1",
-			"image": "pathtoimage",
-			"github": "https://github.com/derek-haworth/REACTed-development",
-			"demo": "https://reacted-development.herokuapp.com/",
-			"data": "react",
-			"title": "REACTed-development"
-		},
-		{
-			"id": "2",
-			"image": "pathtoimage",
-			"github": "https://github.com/derek-haworth/Dyv-iN",
-			"demo": "https://dyv-in.herokuapp.com/",
-			"data": "node / mysql / sequelize / express / passport / handlebars",
-			"title": "Dyn-iN"
-		}
-	],
 	"projects": [
 		{	
+			"id": "10",
+			"image": "/src/images/favicon.ico",
+			"demo": "https://www.emedco2.com/ccrz__ProductDetails?sku=cps_958863",
+			"data": "",
+			"title": "Emedco"
+		},
+		{	
+			"id": "11",
+			"image": "pathtoimage",
+			"demo": "http://www.lockoutpro.com/safety-padlocks.html",
+			"data": "react",
+			"title": "Padlock Buying Guide"
+		},
+		{	
+			"id": "12",
+			"image": "pathtoimage",
+			"demo": "https://www.seton.com/pipe-markers-valve-tags/pipe-markers.html/",
+			"data": "",
+			"title": "Seton Pipemarker Wizard"
+		},
+		{	
 			"id": "1",
 			"image": "pathtoimage",
 			"github": "https://github.com/derek-haworth/REACTed-development",
 			"demo": "https://reacted-development.herokuapp.com/",
-			"data": "react",
+			"data": "",
 			"title": "REACTed-development"
 		},
 		{
