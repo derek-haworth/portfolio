@@ -23,4 +23,7 @@ img {
   max-width: 100%;
 }
 
-
+// allows for page to fill up screen of most laptops
+.content-area {
+  min-height: 327px;
+}

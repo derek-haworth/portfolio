@@ -23,7 +23,7 @@ var projects = data.projects;
     
     var handleObj = {
       title: 'Projects',
-      content: '',
+      content: 'A collection of projects, employer based apps, experiments, and games.',
       active_projects: true,
       projects: projects
     };
@@ -35,7 +35,7 @@ var projects = data.projects;
   router.get('/about', function (req, res) {
     var handleObj = {
       title: 'About',
-      content: '',
+      content: 'Derek has 4 years of professional development experience. Contact Derek today for all of your front-end or full stack needs.',
       active_about: true
     };
     res.render('about', handleObj);
@@ -45,7 +45,7 @@ var projects = data.projects;
   router.get('/contact', function (req, res) {
     var handleObj = {
       title: 'Contact',
-      content: '',
+      content: 'Looking to find a front-end developer? Want to hire me? Lets connect! Derek Haworth is located in Chicago, IL.',
       active_contact: true
     };
     res.render('contact', handleObj);
@@ -55,7 +55,7 @@ var projects = data.projects;
   router.get('/resume', function (req, res) {
     var handleObj = {
       title: 'Resume',
-      content: '',
+      content: 'A Chicago-based front-end developer specializing in solutioning complex business problems. A self driven individual who is passionate about creative problem solving.',
       active_resume: true
     };
     res.render('resume', handleObj);
@@ -69,7 +69,7 @@ var projects = data.projects;
 
         var handleObj = {
           title: projects[i].title,
-          content: '',
+          content: projects[i].shortDesc,
           projects: projects[i]
         };
 
