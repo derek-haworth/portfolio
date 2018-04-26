@@ -22,7 +22,7 @@ var projects = data.projects;
     //pull in data from data.json about project and render in the handlebar Obj
     
     var handleObj = {
-      title: 'Projects',
+      title: 'Projects & Apps',
       content: 'A collection of projects, employer based apps, experiments, and games.',
       active_projects: true,
       projects: projects
