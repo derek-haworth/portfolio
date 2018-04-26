@@ -43,7 +43,7 @@ function hasScrolled() {
 
 // Resume Download Button
 $("#resume").click(function () {
-    $(this).text("And Another");
+    $(this).text("And Another...");
 })
 
 //TODO
