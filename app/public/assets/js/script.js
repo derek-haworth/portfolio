@@ -43,8 +43,8 @@ function hasScrolled() {
 
 // Resume Download Button
 $("#resume").click(function () {
-    $(this).text("And Another...");
+    $(this).text("And Another?");
 })
 
 //TODO
-// Add random message each time button is clicked. EX: "1 more please, and another, etc."
+// Add random message each time button is clicked. EX: "1 more please, and another, 1 more for good measure etc."

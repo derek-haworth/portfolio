@@ -1,22 +1,15 @@
 <div class="col-md-4">
-	<article id="{{this.id}}">
-		<div class="">
-			<h3>
-				<a href="/projects/{{this.title}}" class="">{{this.title}}</a>
-			</h3>
-
-			<p class="">{{this.data}}</p>
-
-			<div class="thumb">
-				<a href="/projects/{{this.title}}" class="card-link">
-					<img src="https://www.what-dog.net/Images/faces2/scroll0015.jpg" alt="{{this.title}}" class="">
-				</a>
+	<div class="card" id="{{this.id}}">
+		<a href="/projects/{{this.title}}" class="">
+			{{!-- <div class="card-img" style="background-image: url({{this.image}});" alt="{{this.title}}"></div> --}}
+			<div class="card-img" style="background-image: url('https://www.what-dog.net/Images/faces2/scroll0015.jpg');" alt="{{this.title}}"></div>
+			<div class="card-content">
+				<div class="card-tags">
+					<div class="card-tag text-sm">{{this.data}}</div>
+				</div>
+				<h4>{{this.title}}</h4>
+				<p>{{this.shortDesc}}</p>
 			</div>
-
-			<div>
-				<a href="{{this.demo}}" target="_blank" title="Demo will open in a new window">Live Demo</a>
-				<a href="/projects/{{this.title}}">Read More</a>
-			</div>
-		</div>
-	</article>
+		</a>
+	</div>
 </div>
