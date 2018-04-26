@@ -110,19 +110,27 @@ footer {
     margin-top: 10em;
     .copyright {
         padding-top: 1em;
+        text-align: center;
     }
     .social-networks-ul {
         margin: 15px 0 0 0;
-        text-align: right;
+        text-align: center;
         font-size: 22px;
         li {
             padding: 0 .5em;
+            a {
+                color: $base-font;
+                &:hover {
+                    color: $secondary;
+                }
+            }
         } 
     }
     /* 992px ----------- */
     @media only screen and (min-width: 992px) {
         .copyright {
             padding-top: 0;
+            text-align: left;
         }
         .social-networks-ul {
             margin: 15px 0 0 0;
@@ -130,9 +138,6 @@ footer {
             font-size: 22px;
             li {
                 padding: 0 .5em;
-                a {
-                    color: $base-font;
-                }
             } 
         }
     }
