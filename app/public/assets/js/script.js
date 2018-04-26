@@ -34,7 +34,6 @@ function hasScrolled() {
     }
 
     if (scrollT < 75) {
-        debugger;
         $('header').removeClass('nav-shadow');
     }
     

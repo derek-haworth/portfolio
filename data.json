@@ -5,21 +5,16 @@
 			"image": "/src/images/favicon.ico",
 			"demo": "https://www.emedco2.com/ccrz__ProductDetails?sku=cps_958863",
 			"data": "",
-			"title": "Emedco"
+			"title": "Emedco",
+			"shortDesc": ""
 		},
 		{	
 			"id": "11",
 			"image": "pathtoimage",
 			"demo": "http://www.lockoutpro.com/safety-padlocks.html",
-			"data": "react",
-			"title": "Padlock Buying Guide"
-		},
-		{	
-			"id": "12",
-			"image": "pathtoimage",
-			"demo": "https://www.seton.com/pipe-markers-valve-tags/pipe-markers.html/",
 			"data": "",
-			"title": "Seton Pipemarker Wizard"
+			"title": "Padlock Buying Guide",
+			"shortDesc": ""
 		},
 		{	
 			"id": "1",
@@ -27,7 +22,8 @@
 			"github": "https://github.com/derek-haworth/REACTed-development",
 			"demo": "https://reacted-development.herokuapp.com/",
 			"data": "",
-			"title": "REACTed-development"
+			"title": "REACTed-development",
+			"shortDesc": ""
 		},
 		{
 			"id": "2",
@@ -35,7 +31,8 @@
 			"github": "https://github.com/derek-haworth/Dyv-iN",
 			"demo": "https://dyv-in.herokuapp.com/",
 			"data": "node / mysql / sequelize / express / passport / handlebars",
-			"title": "Dyn-iN"
+			"title": "Dyn-iN",
+			"shortDesc": ""
 		},
 		{	
 			"id": "3",
@@ -43,7 +40,8 @@
 			"github": "https://github.com/derek-haworth/Experiments-and-Games/tree/master/Trivia-Game",
 			"demo": "https://derek-haworth.github.io/Experiments-and-Games/Trivia-Game/",
 			"data": "javascript",
-			"title": "Jurassic Park Trivia"
+			"title": "Jurassic Park Trivia",
+			"shortDesc": ""
 		},
 		{	
 			"id": "4",
@@ -51,7 +49,8 @@
 			"github": "https://github.com/derek-haworth/liri-node-app",
 			"demo": "https://github.com/derek-haworth/liri-node-app",
 			"data": "nodejs / npm / javascript / apis / cli",
-			"title": "LIRI"
+			"title": "LIRI",
+			"shortDesc": ""
 		},
 		{
 			"id": "5",
@@ -59,7 +58,8 @@
 			"github": "https://github.com/derek-haworth/hangman-cli",
 			"demo": "https://github.com/derek-haworth/hangman-cli",
 			"data": "nodejs / javascript / inquirer / cli ",
-			"title": "Hangman"
+			"title": "Hangman",
+			"shortDesc": ""
 		},
 		{
 			"id": "6",
@@ -67,7 +67,8 @@
 			"github": "https://github.com/derek-haworth/friend-finder",
 			"demo": "https://haworth-friend-finder.herokuapp.com/",
 			"data": "nodejs / npm / express ",
-			"title": "Friend Finder"
+			"title": "Friend Finder",
+			"shortDesc": ""
 		},
 		{
 			"id": "7",
@@ -75,7 +76,8 @@
 			"github": "https://github.com/derek-haworth/bamazon",
 			"demo": "https://github.com/derek-haworth/bamazon",
 			"data": "nodejs / javascript / inquirer / mysql-database / cli ",
-			"title": "Bamazon"
+			"title": "Bamazon",
+			"shortDesc": ""
 		},
 		{
 			"id": "8",
@@ -83,14 +85,16 @@
 			"github": "https://github.com/derek-haworth/bamazon",
 			"demo": "https://sheltered-shore-86172.herokuapp.com/burgers",
 			"data": "nodejs / MVC / mysql / sequelize / orm / database / express / handlebars",
-			"title": "Burger App"
+			"title": "Burger App",
+			"shortDesc": ""
 		},
 		{
 			"id": "9",
 			"image": "pathtoimage",
 			"github": "https://github.com/derek-haworth/Exercises",
 			"demo": "https://github.com/derek-haworth/Exercises",
-			"title": "Collection of experiments and games"
+			"title": "Collection of experiments and games",
+			"shortDesc": ""
 		}
 	]
 }

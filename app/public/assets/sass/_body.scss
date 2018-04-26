@@ -15,17 +15,28 @@
       font-weight: $bolder;
     }
   }
+  p {
+    margin-bottom: 20px;
+  }
   a.main-cta {
     background: #29A46A;
-    padding: 15px;
-    width: 20%;
-    color: $white;
+    padding: 10px 50px;
+    color: #fff;
     font-size: 22px;
     border-radius: 40px;
-    &:hover {
+    -webkit-animation-name: Pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    &:hover, &:active{
       text-decoration: none;
     }
   }
+}
+
+@-webkit-keyframes Pulse {
+  from { background-color: #29A46A; -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color: #33c681; -webkit-box-shadow: 0 0 18px #33c681; }
+  to { background-color: #29A46A; -webkit-box-shadow: 0 0 9px #333; }
 }
 
 /* Section Headings */
@@ -45,7 +56,7 @@
     color: #5e7184;
     font-size: 1.5em;
     font-style: italic;
-    border-left: 3px solid $off-pink;
+    border-left: 3px solid $secondary;
   }
 }
 
