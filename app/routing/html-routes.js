@@ -11,6 +11,7 @@ var projects = data.projects;
 
     var handleObj = {
       title: 'Home',
+      content: 'A Chicago-based front-end developer specializing in solutioning complex business problems. A self driven individual who is passionate about creative problem solving.',
       projects: homeProjects
     }
     res.render('index', handleObj)
@@ -22,6 +23,7 @@ var projects = data.projects;
     
     var handleObj = {
       title: 'Projects',
+      content: '',
       active_projects: true,
       projects: projects
     };
@@ -33,6 +35,7 @@ var projects = data.projects;
   router.get('/about', function (req, res) {
     var handleObj = {
       title: 'About',
+      content: '',
       active_about: true
     };
     res.render('about', handleObj);
@@ -42,6 +45,7 @@ var projects = data.projects;
   router.get('/contact', function (req, res) {
     var handleObj = {
       title: 'Contact',
+      content: '',
       active_contact: true
     };
     res.render('contact', handleObj);
@@ -51,6 +55,7 @@ var projects = data.projects;
   router.get('/resume', function (req, res) {
     var handleObj = {
       title: 'Resume',
+      content: '',
       active_resume: true
     };
     res.render('resume', handleObj);
@@ -61,10 +66,13 @@ var projects = data.projects;
 
     for (var i = 0; i < projects.length; i++) {
       if (projects[i].title === req.params.name) {
+
         var handleObj = {
           title: projects[i].title,
+          content: '',
           projects: projects[i]
         };
+
         return res.render('single-project', handleObj);
       }
     }
@@ -73,7 +81,8 @@ var projects = data.projects;
   // 404 Page
   router.use(function (req, res) {
     var handleObj = {
-      title: 'Page Not Found'
+      title: 'Page Not Found',
+      content: ''
     };
     res.render('404', handleObj);
   });

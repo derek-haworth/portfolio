@@ -2,6 +2,7 @@
 body {
   background: $body;
 }
+
 a {
   &:hover, &:focus, &:active {
     background-color: transparent;
@@ -12,6 +13,10 @@ p {
   font-size: $base-size;
   line-height: 2em;
   color: $base-font;
+}
+
+small {
+  font-size: 85%;
 }
 
 img {

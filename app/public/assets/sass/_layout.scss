@@ -45,6 +45,9 @@ header {
                 background-color: transparent;
                 text-decoration: line-through;
             }
+            &:focus {
+                background: none;
+            }
         }
     }
 }
@@ -127,6 +130,9 @@ footer {
             font-size: 22px;
             li {
                 padding: 0 .5em;
+                a {
+                    color: $base-font;
+                }
             } 
         }
     }

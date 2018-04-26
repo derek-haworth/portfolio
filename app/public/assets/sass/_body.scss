@@ -27,13 +27,13 @@
     -webkit-animation-name: Pulse;
     -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: infinite;
-    &:hover, &:active{
+    &:hover, &:active, &:focus{
       text-decoration: none;
     }
   }
 }
 
-@-webkit-keyframes Pulse {
+@keyframes Pulse {
   from { background-color: #29A46A; -webkit-box-shadow: 0 0 9px #333; }
   50% { background-color: #33c681; -webkit-box-shadow: 0 0 18px #33c681; }
   to { background-color: #29A46A; -webkit-box-shadow: 0 0 9px #333; }
