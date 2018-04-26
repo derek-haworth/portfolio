@@ -21,7 +21,14 @@
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="/src/css/main.min.css">
-
+<style>
+.temp-message {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    left: 0;
+}
+</style>
 <body>
     <!--Created by
    _______        __     __
@@ -44,7 +51,7 @@
             <div class="spinner"><div class="spinner-inner"></div></div>
         </div>
     </div>
-    <div class="alert alert-warning" role="alert">
+    <div class="alert alert-warning temp-message" role="alert">
         In Progress...
     </div>
     <header class="nav-down">
