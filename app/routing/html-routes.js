@@ -16,7 +16,7 @@ var projects = data.projects;
     res.render('index', handleObj)
   });
   
-  // Main/Projects/Portfolio Page
+  // Main-Projects/Portfolio Page
   router.get('/projects', function (req, res) {
     //pull in data from data.json about project and render in the handlebar Obj
     
@@ -68,7 +68,6 @@ var projects = data.projects;
         return res.render('single-project', handleObj);
       }
     }
-
   });
 
   // 404 Page
