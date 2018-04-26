@@ -39,3 +39,9 @@ function hasScrolled() {
     
     lastScrollTop = scrollT;
 }
+
+
+// Resume Download Button
+$("#resume").click(function () {
+    $(this).text("And Another");
+})

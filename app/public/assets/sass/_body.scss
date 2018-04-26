@@ -84,3 +84,49 @@
 }
 
 
+/*
+    ====================================
+              Resume 
+    ====================================
+*/
+
+.download-resume {
+  background: $secondary;
+  color: $white;
+  box-shadow: 0 6px #1c6844;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  display: inline-block;
+  margin: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  width: 19%;
+  &:focus {
+    background: $secondary;
+    text-decoration: none;
+    color: $white;
+  }
+  &:hover {
+    background: $secondary;
+    color: $white;
+    box-shadow: 0 4px #1c6844;
+    top: 1px;
+    text-decoration: none;
+  }
+  &:active {
+    box-shadow: 0 0 #1c6844;
+    top: 6px;
+  }
+}
+
+/*
+    ====================================
+              About 
+    ====================================
+*/
+
