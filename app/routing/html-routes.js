@@ -70,7 +70,9 @@ var projects = data.projects;
         var handleObj = {
           title: projects[i].title,
           content: projects[i].shortDesc,
-          projects: projects[i]
+          demo: projects[i].demo,
+          github: projects[i].github,
+          image: projects[i].image
         };
 
         return res.render('single-project', handleObj);

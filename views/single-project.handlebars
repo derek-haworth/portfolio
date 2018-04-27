@@ -1,24 +1,24 @@
 <!-- projects gallery -->
-	<div class="gallery container content-area">
+	<div class="container content-area">
 		<div class="row">
-		    <ul class="gallery-ul clearfix">
-		    	<li>
-			        <figure>
-						<img src="https://www.what-dog.net/Images/faces2/scroll0015.jpg" alt="{{title}}">
-						<figcaption>
-							<h3 class="pzero mzero">{{title}}</h3>
-							<span>{{data}}</span>
-							<a href="{{demo}}" target="_blank">Take a look</a>
-							<p class="short-desc">
-								{{#if this.shortDesc}}
-								
-								{{else}}
-									lorem ipsumd
-								{{/if}}
-							</p>
-						</figcaption>
-					</figure>
-			    </li>
-		    </ul>
+		    <div class="gallery">
+			    <figure>
+					<img src="{{this.image}}" alt="{{this.title}}">
+					<figcaption>
+						<h3 class="">{{this.title}}</h3>
+						{{#if this.demo}}
+							<a href="{{this.demo}}"  target="_blank" class="prl">Live Demo</a>
+						{{/if}}
+
+						{{#if this.github}}
+							<a href="{{this.github}}"  target="_blank">See the code</a>
+						{{/if}}
+						
+						<p class="long-desc">
+							{{this.longDesc}}
+						</p>
+					</figcaption>
+				</figure>
+		    </div>
 		</div>
 	</div>

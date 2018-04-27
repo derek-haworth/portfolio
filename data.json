@@ -2,99 +2,100 @@
 	"projects": [
 		{	
 			"id": "10",
-			"image": "/src/images/favicon.ico",
+			"image": "/src/images/projects/emedco.png",
 			"demo": "https://www.emedco2.com/ccrz__ProductDetails?sku=cps_958863",
-			"data": "",
+			"data": "salesforce / product detail",
 			"title": "Emedco",
-			"shortDesc": "af;alkdjflaksdjf;aslkdfja;lskdfjas;lkdfj"
+			"shortDesc": "An ecommerce site migration to the Salesforce CRM platform"
+		},
+		{	
+			"id": "12",
+			"image": "/src/images/projects/order-entry.gif",
+			"demo": "",
+			"data": "salesforce / apex / visualforce / javascript",
+			"title": "Order Entry Widget",
+			"shortDesc": "A custom 'order entry' widget used by internal customer service reps to streamline bulk ordering on the front-end."
 		},
 		{	
 			"id": "11",
-			"image": "pathtoimage",
+			"image": "/src/images/projects/padlock.png",
 			"demo": "http://www.lockoutpro.com/safety-padlocks.html",
-			"data": "",
+			"data": "javascript",
 			"title": "Padlock Buying Guide",
-			"shortDesc": ""
+			"shortDesc": "A guided selling wizard to help customers decided on which padlock is right for their needs."
 		},
 		{	
 			"id": "1",
-			"image": "pathtoimage",
+			"image": "/src/images/projects/reacted.png",
 			"github": "https://github.com/derek-haworth/REACTed-development",
 			"demo": "https://reacted-development.herokuapp.com/",
-			"data": "",
+			"data": "react",
 			"title": "REACTed-development",
-			"shortDesc": ""
+			"shortDesc": "A memory game created with React.",
+			"longDesc": "REACTed Development is a memory game created with React. It uses components, props, and state to respond to user events. Try and click all the cards without doubling your guess!"
 		},
 		{
 			"id": "2",
-			"image": "pathtoimage",
+			"image": "/src/images/projects/dyvin.png",
 			"github": "https://github.com/derek-haworth/Dyv-iN",
 			"demo": "https://dyv-in.herokuapp.com/",
-			"data": "node / mysql / sequelize / express / passport / handlebars",
-			"title": "Dyn-iN",
-			"shortDesc": ""
+			"data": "node / mysql / sequelize / express / handlebars",
+			"title": "Dyv-iN",
+			"shortDesc": "A 'Yelp' mock site that utilizes MySQL database and CRUD",
+			"longDesc": "Every city has those places that everyone feels like they need to go, but that doesn't mean you have to! Check out Dyv-iN to get some ideas about the better places to go."
 		},
 		{	
 			"id": "3",
-			"image": "pathtoimage",
+			"image": "/src/images/projects/jurassic.png",
 			"github": "https://github.com/derek-haworth/Experiments-and-Games/tree/master/Trivia-Game",
 			"demo": "https://derek-haworth.github.io/Experiments-and-Games/Trivia-Game/",
 			"data": "javascript",
 			"title": "Jurassic Park Trivia",
-			"shortDesc": ""
+			"shortDesc": "Trivia game using JavaScript for the logic and jQuery to manipulate HTML."
 		},
 		{	
 			"id": "4",
-			"image": "pathtoimage",
+			"image": "/src/images/projects/node_movie.png",
 			"github": "https://github.com/derek-haworth/liri-node-app",
-			"demo": "https://github.com/derek-haworth/liri-node-app",
+			"demo": "",
 			"data": "nodejs / npm / javascript / apis / cli",
 			"title": "LIRI",
-			"shortDesc": ""
+			"shortDesc": "A command line node app that takes in parameters and gives you back data, like siri but for the command line"
 		},
 		{
 			"id": "5",
-			"image": "pathtoimage",
+			"image": "/src/images/projects/hangman-cli-demo.gif",
 			"github": "https://github.com/derek-haworth/hangman-cli",
-			"demo": "https://github.com/derek-haworth/hangman-cli",
+			"demo": "",
 			"data": "nodejs / javascript / inquirer / cli ",
 			"title": "Hangman",
-			"shortDesc": ""
-		},
-		{
-			"id": "6",
-			"image": "pathtoimage",
-			"github": "https://github.com/derek-haworth/friend-finder",
-			"demo": "https://haworth-friend-finder.herokuapp.com/",
-			"data": "nodejs / npm / express ",
-			"title": "Friend Finder",
-			"shortDesc": ""
+			"shortDesc": "A hangman command-line-interface game"
 		},
 		{
 			"id": "7",
-			"image": "pathtoimage",
+			"image": "/src/images/projects/bamazon_manager.gif",
 			"github": "https://github.com/derek-haworth/bamazon",
-			"demo": "https://github.com/derek-haworth/bamazon",
+			"demo": "",
 			"data": "nodejs / javascript / inquirer / mysql-database / cli ",
 			"title": "Bamazon",
-			"shortDesc": ""
+			"shortDesc": "A command-line-interface node application that acts like an amazon storefront"
 		},
 		{
 			"id": "8",
-			"image": "pathtoimage",
-			"github": "https://github.com/derek-haworth/bamazon",
+			"image": "/src/images/projects/burger.png",
+			"github": "https://github.com/derek-haworth/sequelizedBurger",
 			"demo": "https://sheltered-shore-86172.herokuapp.com/burgers",
-			"data": "nodejs / MVC / mysql / sequelize / orm / database / express / handlebars",
+			"data": "node / MVC / mysql / sequelize / orm / handlebars",
 			"title": "Burger App",
-			"shortDesc": ""
+			"shortDesc": "It's kind of like a To-Do App but for burgers."
 		},
 		{
 			"id": "9",
 			"image": "pathtoimage",
 			"github": "https://github.com/derek-haworth/Exercises",
 			"demo": "https://github.com/derek-haworth/Exercises",
-			"title": "Collection of experiments and games",
-			"shortDesc": ""
+			"title": "Misc.",
+			"shortDesc": "Collection of experiments and games, tests, things I feel like trying."
 		}
 	]
 }
