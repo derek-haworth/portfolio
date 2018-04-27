@@ -69,7 +69,7 @@ var projects = data.projects;
 
         var handleObj = {
           title: projects[i].title,
-          content: projects[i].shortDesc,
+          content: projects[i].longDesc,
           demo: projects[i].demo,
           github: projects[i].github,
           image: projects[i].image
