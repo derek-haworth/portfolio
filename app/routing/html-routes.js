@@ -3,10 +3,10 @@ var router = express.Router();
   
 // Require json to project details
 var data = require('../../data.json');
-var homeProjects = data.homeProjects;
+// var homeProjects = data.homeProjects;
 var projects = data.projects;
 
-  // Root defaults to Projects/Portfolio Page
+  // Root defaults to Index/Landing Page
   router.get('/', function (req, res) {
 
     var handleObj = {
