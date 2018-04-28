@@ -6,7 +6,8 @@
 			"demo": "https://www.emedco2.com/ccrz__ProductDetails?sku=cps_958863",
 			"data": "salesforce / product detail",
 			"title": "Emedco",
-			"shortDesc": "An ecommerce site migration to the Salesforce CRM platform"
+			"shortDesc": "An ecommerce site migration to the CloudCraze, Salesforce CRM platform",
+			"longDesc": ""
 		},
 		{	
 			"id": "12",
@@ -14,7 +15,8 @@
 			"demo": "",
 			"data": "salesforce / apex / visualforce / javascript",
 			"title": "Order Entry Widget",
-			"shortDesc": "A custom 'order entry' widget used by internal customer service reps to streamline bulk ordering on the front-end."
+			"shortDesc": "A custom 'order entry' widget used by internal customer service reps to streamline bulk ordering on the front-end.",
+			"longDesc": ""
 		},
 		{	
 			"id": "11",
@@ -22,7 +24,8 @@
 			"demo": "http://www.lockoutpro.com/safety-padlocks.html",
 			"data": "javascript",
 			"title": "Padlock Buying Guide",
-			"shortDesc": "A guided selling wizard to help customers decided on which padlock is right for their needs."
+			"shortDesc": "A guided selling wizard to help customers decide on which padlock is right for their needs.",
+			"longDesc": ""
 		},
 		{	
 			"id": "1",
@@ -51,7 +54,8 @@
 			"demo": "https://derek-haworth.github.io/Experiments-and-Games/Trivia-Game/",
 			"data": "javascript",
 			"title": "Jurassic Park Trivia",
-			"shortDesc": "Trivia game using JavaScript for the logic and jQuery to manipulate HTML."
+			"shortDesc": "Trivia game using JavaScript for the logic and jQuery to manipulate HTML.",
+			"longDesc": "" 
 		},
 		{	
 			"id": "4",
@@ -60,7 +64,8 @@
 			"demo": "",
 			"data": "nodejs / npm / javascript / apis / cli",
 			"title": "LIRI",
-			"shortDesc": "A command line node app that takes in parameters and gives you back data, like siri but for the command line"
+			"shortDesc": "A command line node app that takes in parameters and gives you back data, like siri but for the command line",
+			"longDesc": ""
 		},
 		{
 			"id": "5",
@@ -69,7 +74,8 @@
 			"demo": "",
 			"data": "nodejs / javascript / inquirer / cli ",
 			"title": "Hangman",
-			"shortDesc": "A hangman command-line-interface game"
+			"shortDesc": "A hangman command-line-interface game",
+			"longDesc": ""
 		},
 		{
 			"id": "7",
@@ -78,7 +84,8 @@
 			"demo": "",
 			"data": "nodejs / javascript / inquirer / mysql-database / cli ",
 			"title": "Bamazon",
-			"shortDesc": "A command-line-interface node application that acts like an amazon storefront"
+			"shortDesc": "A command-line-interface node application that acts like an amazon storefront",
+			"longDesc": ""
 		},
 		{
 			"id": "8",
@@ -87,7 +94,8 @@
 			"demo": "https://sheltered-shore-86172.herokuapp.com/burgers",
 			"data": "node / MVC / mysql / sequelize / orm / handlebars",
 			"title": "Burger App",
-			"shortDesc": "It's kind of like a To-Do App but for burgers."
+			"shortDesc": "It's kind of like a To-Do App but for burgers.", 
+			"longDesc": ""
 		},
 		{
 			"id": "9",
@@ -95,7 +103,8 @@
 			"github": "https://github.com/derek-haworth/Exercises",
 			"demo": "",
 			"title": "Miscellaneous",
-			"shortDesc": "Collection of experiments and games, tests, things I feel like trying."
+			"shortDesc": "Collection of experiments and games, tests, things I feel like trying.",
+			"longDesc": ""
 		}
 	]
 }
