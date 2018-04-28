@@ -11,8 +11,7 @@ var projects = data.projects;
 
     var handleObj = {
       title: 'Home',
-      content: 'A Chicago-based front-end developer specializing in solutioning complex business problems. A self driven individual who is passionate about creative problem solving.',
-      projects: homeProjects
+      content: 'A Chicago-based front-end developer specializing in solutioning complex business problems. A self driven individual who is passionate about creative problem solving.'
     }
     res.render('index', handleObj)
   });
