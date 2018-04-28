@@ -11,7 +11,12 @@
 .text-none { text-decoration: none; }
 .full-width {width: 100%;}
 .bg-none { background: none!important; }
-.buffer { padding: 4% 0;}
+.buffer { 
+    padding: 4% 0;
+    @media (max-width: 767px) {
+        padding: 2% 0;
+    }    
+}
 .strike { text-decoration: line-through;}
 .text-none:hover, .text-none:active, .text-none:focus { text-decoration: none; }
 

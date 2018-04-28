@@ -4,9 +4,15 @@
   h1 {
     color: $base;
     font-size: 3vw;
+    @media (max-width: 767px) {
+      font-size: 6vw;
+    }
     span {
       font-size: 5vw;
       font-weight: $bolder;
+      @media (max-width: 767px) {
+        font-size: 9vw;
+      }
     }
   }
   p {
@@ -130,6 +136,10 @@
   outline: none;
   position: relative;
   width: 17%;
+  @media (max-width: 767px) {
+    margin: 20px 0;
+    width: 100%;
+  }
   &:focus {
     background: $secondary;
     text-decoration: none;

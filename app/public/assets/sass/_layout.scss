@@ -18,6 +18,9 @@ header {
     transition: top 0.3s ease-in-out;
     -webkit-transition: 0.3s all ease-out;
     -moz-transition: 0.3s all ease-out;
+    @media (max-width: 767px) {
+        position: static;
+    }
     &.nav-up {
         top: -80px;
     }
@@ -30,6 +33,10 @@ header {
             font-weight: $bolder;
             font-size: 24px;
             letter-spacing: -1px;
+        }
+        .icon-bar {
+            background: $base;
+            height: 3px;
         }
     }
     .nav li {
