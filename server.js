@@ -16,9 +16,6 @@ app.engine('handlebars', handleExpress({
 
 app.set('view engine', 'handlebars')
 
-// // routes
-// require('./app/routing/html-routes.js')(app)
-
 // Routes
 // ========================================
 var htmlRouter = require('./app/routing/html-routes.js');

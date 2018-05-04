@@ -61,7 +61,7 @@ var projects = data.projects;
   });
 
   router.get("/projects/:name", function(req, res) {
-    console.log(req.params.name);
+    // console.log(req.params.name);
 
     for (var i = 0; i < projects.length; i++) {
       if (projects[i].title === req.params.name) {
