@@ -44,8 +44,10 @@ header {
             height: 3px;
         }
     }
-    .navbar-collapse{
-        background: #fff;
+    .navbar-collapse {
+        @media (max-width: 767px) {
+            background: #fff;
+        }
         .nav {
             text-align: center;
             li {
