@@ -21,6 +21,11 @@ header {
     @media (max-width: 767px) {
         position: static;
     }
+    .navbar-fixed-top {
+        @media (max-width: 767px) {
+            position: fixed;
+        }
+    }
     &.nav-up {
         top: -80px;
     }
@@ -39,20 +44,26 @@ header {
             height: 3px;
         }
     }
-    .nav li {
-        a {
-            color: $base;
-            &.active {
-                text-decoration: line-through;
-                color: $secondary; 
-            }
-            &:hover {
-                transition: 0.3s;
-                background-color: transparent;
-                text-decoration: line-through;
-            }
-            &:focus {
-                background: none;
+    .navbar-collapse{
+        background: #fff;
+        .nav {
+            text-align: center;
+            li {
+                a {
+                    color: $base;
+                    &.active {
+                        text-decoration: line-through;
+                        color: $secondary; 
+                    }
+                    &:hover {
+                        transition: 0.3s;
+                        background-color: transparent;
+                        text-decoration: line-through;
+                    }
+                    &:focus {
+                        background: none;
+                    }
+                }
             }
         }
     }

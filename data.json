@@ -3,7 +3,7 @@
 		{	
 			"id": "10",
 			"image": "/src/images/projects/emedco.png",
-			"demo": "https://www.emedco2.com/ccrz__ProductDetails?sku=cps_958863",
+			"demo": "https://www.emedco.com/ccrz__ProductDetails?sku=cps_958863",
 			"data": "salesforce / product detail",
 			"title": "Emedco",
 			"shortDesc": "An ecommerce site migration to the CloudCraze, Salesforce CRM platform",
