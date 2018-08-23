@@ -7,7 +7,7 @@
 			"data": "salesforce / product detail",
 			"title": "Emedco",
 			"shortDesc": "An ecommerce site migration to the CloudCraze, Salesforce CRM platform",
-			"longDesc": ""
+			"longDesc": "Complete site migration to SFDC Platform utilizing B2B Commerce (CloudCraze). Clouds: Commerce, Community, Marketing, Sales, Inside Sales"
 		},
 		{	
 			"id": "12",
@@ -16,7 +16,7 @@
 			"data": "salesforce / apex / visualforce / javascript",
 			"title": "Order Entry Widget",
 			"shortDesc": "A custom 'order entry' widget used by internal customer service reps to streamline bulk ordering on the front-end.",
-			"longDesc": ""
+			"longDesc": "A custom sku entering widget used by internal customer service reps (CSR) to streamline online bulk ordering and phone sales."
 		},
 		{	
 			"id": "11",
@@ -25,7 +25,7 @@
 			"data": "javascript",
 			"title": "Padlock Buying Guide",
 			"shortDesc": "A guided selling wizard to help customers decide on which padlock is right for their needs.",
-			"longDesc": ""
+			"longDesc": "The Lockout Pro example above has been redirected to Lockout Compliance on Emedco.com. The solution page was built with Visualforce, Handlebars, and JavaScript"
 		},
 		{	
 			"id": "1",
